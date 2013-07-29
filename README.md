@@ -1,4 +1,3 @@
-
 # Lightstreamer StockList Demo Client for BlackBerry #
 
 This project contains a full example of a Midlet Java application that employs the Lightstreamer BlackBerry client library.
