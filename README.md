@@ -34,6 +34,8 @@ The application is divided into 8 main public classes.
 * <b>ErrorPrompt</b> is a simple CommandListener that is used to show error messages (if any). During development it can also be used as in-device logging facility.
 * <b>BBConnectionProvider</b> is a key class for the BlackBerry demo. It implements the ConnectionProvider to customize urls before those are used by the Lightstrteamer client library. Url customization is needed by BlackBerry devices to access the internet through different transports  (see [here](http://supportforums.blackberry.com/t5/Java-Development/Network-Transports/ta-p/482457)). The current implementation supports WiFi, public MDS and direct TCP connections. 
 
+Check out the sources for further explanations.
+
 # Build #
 
 If you want to skip the build and deploy processes of this demo please note that you can click the image or link above to download a ".jad" file to your phone. As an alternative, point your mobile browser to the URL: http://www.lightstreamer.com/demo/bb/lsbbdemo.jad .
@@ -82,7 +84,7 @@ The factory configuration of Lightstreamer server already provides this adapter 
 
 * [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
-* To be add: [Lightstreamer RoundTrip Demo Adapter]()
+* [Lightstreamer Round-Trip Demo Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
 
 ## Similar demo clients that may interest you ##
 
