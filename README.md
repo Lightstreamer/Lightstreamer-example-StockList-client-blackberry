@@ -97,3 +97,4 @@ The factory configuration of Lightstreamer server already provides this adapter 
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer BlackBerry Client API v. 1.1.1 or newer.
+- For Lightstreamer Allegro+, Presto, Vivace.
