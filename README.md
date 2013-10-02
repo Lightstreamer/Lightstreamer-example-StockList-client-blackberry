@@ -7,7 +7,7 @@ This project contains a full example of a Midlet Java application that employs t
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/bb/lsbbdemo.jad" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_bbslrt.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/bb/lsbbdemo.jad" target="_blank"><img src="screen_bbslrt.png"></a>&nbsp;
       
     </td>
     <td>
@@ -57,7 +57,7 @@ Unfortunately at the time of writing it's not possible to run the demo applicati
 So it is necessary to use RIM JDE that is windows only; download it from [http://us.blackberry.com/developers/javaappdev/javadevenv.jsp](http://us.blackberry.com/developers/javaappdev/javadevenv.jsp) and install it. On Windows 7 you may have issues running it from the Programs folder; I suggest you to install it under the user space. Also, to run the IDE you'll need to use a 32 bit java VM. If your system defaults to a 64 bit JVM you'll have to edit the ide.bat file located under the JDE_HOME/bin folder.
 Once ready launch the IDE double-clicking the ide.bat file; the JDE should start.
   
-NOTE: if you want to try Eclipse anyway you can download the BlackBerry plugin from [http://us.blackberry.com/developers/javaappdev/javaplugin.jsp](http://us.blackberry.com/developers/javaappdev/javaplugin.jsp). Alternatively there is an update site located at [http://www.blackberry.com/go/eclipseUpdate/3.5/java](http://www.blackberry.com/go/eclipseUpdate/3.5/java).
+<i>NOTE: if you want to try Eclipse anyway you can download the BlackBerry plugin from [http://us.blackberry.com/developers/javaappdev/javaplugin.jsp](http://us.blackberry.com/developers/javaappdev/javaplugin.jsp). Alternatively there is an update site located at [http://www.blackberry.com/go/eclipseUpdate/3.5/java](http://www.blackberry.com/go/eclipseUpdate/3.5/java).</i>
 
 ## Compile and Run ##
 From inside the JDE Create a new Midlet project by clicking File->New. Then select the Projects tab and choose Midlet. If necessary you may have to create a workspace first. Once the project is ready right-click it and select add files to project. 
@@ -97,4 +97,4 @@ The factory configuration of Lightstreamer server already provides this adapter 
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer BlackBerry Client API v. 1.1.1 or newer.
-- For Lightstreamer Allegro+, Presto, Vivace.
+- For Lightstreamer Allegro (+ BlackBerry Client API support), Presto, Vivace.
