@@ -1,4 +1,5 @@
 # Lightstreamer - Basic Stock-List and Round-Trip Demo - BlackBerry Client #
+<!-- START DESCRIPTION Basic Stock-List and Round-Trip Demo -->
 
 This project contains a full example of a Midlet Java application that employs the Lightstreamer BlackBerry client library.
 
@@ -33,6 +34,7 @@ The application is divided into 8 main public classes.
 * <b>BBConnectionProvider</b> is a key class for the BlackBerry demo. It implements the ConnectionProvider to customize urls before those are used by the Lightstrteamer client library. Url customization is needed by BlackBerry devices to access the internet through different transports  (see [here](http://supportforums.blackberry.com/t5/Java-Development/Network-Transports/ta-p/482457)). The current implementation supports WiFi, public MDS and direct TCP connections. 
 
 Check out the sources for further explanations.
+<!-- END DESCRIPTION Basic Stock-List and Round-Trip Demo -->
 
 # Build #
 
@@ -79,10 +81,13 @@ The factory configuration of Lightstreamer server already provides this adapter 
 # See Also #
 
 ## Lightstreamer Adapters needed by this demo client ##
+<!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 * [Lightstreamer - Round-Trip Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
