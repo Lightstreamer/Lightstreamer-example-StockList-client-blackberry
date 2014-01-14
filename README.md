@@ -3,18 +3,8 @@
 
 This project contains a full example of a Midlet Java application that employs the Lightstreamer BlackBerry client library.
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/bb/lsbbdemo.jad" target="_blank"><img src="screen_bbslrt.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;Click here to download and install the application:<br>
-      &nbsp;<a href="http://demos.lightstreamer.com/bb/lsbbdemo.jad" target="_blank">http://demos.lightstreamer.com/bb/lsbbdemo.jad</a>
-    </td>
-  </tr>
-</table>
+[![screenshot](screen_bbslrt_large.png)](http://demos.lightstreamer.com/bb/lsbbdemo.jad)<br>
+Click here to download and install the application: [http://demos.lightstreamer.com/bb/lsbbdemo.jad](http://demos.lightstreamer.com/bb/lsbbdemo.jad)
 
 This BlackBerry application contains two different screens: one with three stock quotes from the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript), the other with four items from the [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript).
 This app uses the <b>BlackBerry Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server.<br>
@@ -23,7 +13,7 @@ When the Basic Stock-List Demo is connected, you will see the yellow flashing ce
 
 You can open the [Round-Trip Demo](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript) on a PC browser and see the values synchronized with the mobile phone.
 
-## Dig the code ##
+## Dig the Code ##
 The application is divided into 8 main public classes.
 * <b>LightstreamerDemoMidlet</b>: this is the entry point of the application. It extends the MIDlet class to be run as an application and implements the CommandListener interface to receive menu commands. This class is responsible of server connection and table subscriptions.
 * <b>LSDisplayListener</b>: this class extends Canvas: it is the visual part of the application. It also implements the SimpleTableListener as this class is also used to receive updates from the LSClient instance of the LightstreamerDemoMidlet class. This class cannot be used as is, it is just an abstract class to be used as base to implement real views.
@@ -51,7 +41,7 @@ Otherwise, if you want to procede with the compilation of own version of this de
 * /lib<br>
   Drop here the ls-bb-client.jar from the Lighstreamer SDK for BlackBerry Clients, to be used for the build process and execution.
 
-## Getting started ##
+## Getting Started ##
 Unfortunately at the time of writing it's not possible to run the demo application with Eclipse and its BlackBerry Java Plug-in due to an issue related to importing external jar files to a project, see [here](http://supportforums.blackberry.com/t5/Java-Development/Adding-External-Jars-using-eclipse/m-p/95205).
   
 So it is necessary to use RIM JDE that is windows only; download it from [http://us.blackberry.com/developers/javaappdev/javadevenv.jsp](http://us.blackberry.com/developers/javaappdev/javadevenv.jsp) and install it. On Windows 7 you may have issues running it from the Programs folder; I suggest you to install it under the user space. Also, to run the IDE you'll need to use a 32 bit java VM. If your system defaults to a 64 bit JVM you'll have to edit the ide.bat file located under the JDE_HOME/bin folder.
@@ -80,7 +70,7 @@ The factory configuration of Lightstreamer server already provides this adapter 
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 <!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
@@ -89,7 +79,7 @@ The factory configuration of Lightstreamer server already provides this adapter 
 
 <!-- END RELATED_ENTRIES -->
 
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (iqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
