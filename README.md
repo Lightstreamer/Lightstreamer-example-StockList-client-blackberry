@@ -28,7 +28,7 @@ Check out the sources for further explanations.
 
 # Build #
 
-If you want to skip the build and deploy processes of this demo please note that you can click the image or link above to download a ".jad" file to your phone. As an alternative, point your mobile browser to the URL: http://www.lightstreamer.com/demo/bb/lsbbdemo.jad .
+If you want to skip the build and deploy processes of this demo please note that you can click the image or link above to download a ".jad" file to your phone. As an alternative, point your mobile browser to the URL: http://demos.lightstreamer.com/bb/lsbbdemo.jad .
 Once installed on your phone, run the application, give the requested rights, and wait for the connection to be established (as shown in the top green bar). If no connection can be established but your phone is connecting to the Internet properly for other applications, it probably means that the access point list configured in the demo is not compatible with your phone configuration. You might want to contact [support](support@lightstreamer.com) for further information.
 
 Otherwise, if you want to procede with the compilation of own version of this demo please consider that this example is comprised of the following folders:
