@@ -26,17 +26,18 @@ The application is divided into 8 main public classes.
 * <b>GraphicsTable</b> is a helper class that is used by LSDisplayListener classes to print a table that fits the monitor in use.
 * <b>SubmitForm</b> is a simple CommandListener that is used to obtain from the user a message to be sent to the server (for the interaction demo part of the demo).
 * <b>ErrorPrompt</b> is a simple CommandListener that is used to show error messages (if any). During development it can also be used as in-device logging facility.
-* <b>BBConnectionProvider</b> is a key class for the BlackBerry demo. It implements the ConnectionProvider to customize urls before those are used by the Lightstrteamer client library. Url customization is needed by BlackBerry devices to access the internet through different transports  (see [here](http://supportforums.blackberry.com/t5/Java-Development/Network-Transports/ta-p/482457)). The current implementation supports WiFi, public MDS and direct TCP connections. 
+* <b>BBConnectionProvider</b> is a key class for the BlackBerry demo. It implements the ConnectionProvider to customize urls before those are used by the Lightstrteamer client library. Url customization is needed by BlackBerry devices to access the internet through different transports (see [here](http://supportforums.blackberry.com/t5/Java-Development/Network-Transports/ta-p/482457)). The current implementation supports WiFi, public MDS and direct TCP connections.
+<br>
+
+If you want to skip the build and deploy processes of this demo please note that you can click the image or link in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry#live-demo) section above to download a `.jad` file to your phone. As an alternative, point your mobile browser to the URL: [http://demos.lightstreamer.com/bb/lsbbdemo.jad](http://demos.lightstreamer.com/bb/lsbbdemo.jad).<br>
+Once installed on your phone, run the application, give the requested rights, and wait for the connection to be established (as shown in the top green bar). If no connection can be established but your phone is connecting to the Internet properly for other applications, it probably means that the access point list configured in the demo is not compatible with your phone configuration. You might want to contact [support](support@lightstreamer.com) for further information.
 
 Check out the sources for further explanations.
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-blackberry -->
 
 ## Build
 
-If you want to skip the build and deploy processes of this demo please note that you can click the image or link above to download a ".jad" file to your phone. As an alternative, point your mobile browser to the URL: [http://demos.lightstreamer.com/bb/lsbbdemo.jad](http://demos.lightstreamer.com/bb/lsbbdemo.jad).<br>
-Once installed on your phone, run the application, give the requested rights, and wait for the connection to be established (as shown in the top green bar). If no connection can be established but your phone is connecting to the Internet properly for other applications, it probably means that the access point list configured in the demo is not compatible with your phone configuration. You might want to contact [support](support@lightstreamer.com) for further information.
-
-Otherwise, if you want to procede with the compilation of own version of this demo please consider that this example is comprised of the following folders:
+To build your own version of the demo, instead of using the one provided in the deploy.zip file from the Install section above[Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry#live-demo) section above consider that this example is comprised of the following folders:
 * `/src`<br>
   Contains the sources to build the java application.
 
@@ -50,7 +51,7 @@ Otherwise, if you want to procede with the compilation of own version of this de
 
 Unfortunately at the time of writing it's not possible to run the demo application with Eclipse and its BlackBerry Java Plug-in due to an issue related to importing external jar files to a project, see [here](http://supportforums.blackberry.com/t5/Java-Development/Adding-External-Jars-using-eclipse/m-p/95205).
   
-So it is necessary to use RIM JDE that is windows only; download it from [http://us.blackberry.com/developers/javaappdev/javadevenv.jsp](http://us.blackberry.com/developers/javaappdev/javadevenv.jsp) and install it. On Windows 7 you may have issues running it from the Programs folder; I suggest you to install it under the user space. Also, to run the IDE you'll need to use a 32 bit java VM. If your system defaults to a 64 bit JVM you'll have to edit the ide.bat file located under the `JDE_HOME/bin` folder.
+So it is necessary to use RIM JDE that is windows only; download it from [http://developer.blackberry.com/bbos/java/download/jde/](http://developer.blackberry.com/bbos/java/download/jde/) and install it. On Windows 7 you may have issues running it from the Programs folder; I suggest you to install it under the user space. Also, to run the IDE you'll need to use a 32 bit java VM. If your system defaults to a 64 bit JVM you'll have to edit the ide.bat file located under the `JDE_HOME/bin` folder.
 Once ready launch the IDE double-clicking the `ide.bat` file; the JDE should start.
   
 <i>NOTE: if you want to try Eclipse anyway you can download the BlackBerry plugin from [http://us.blackberry.com/developers/javaappdev/javaplugin.jsp](http://us.blackberry.com/developers/javaappdev/javaplugin.jsp). Alternatively there is an update site located at [http://www.blackberry.com/go/eclipseUpdate/3.5/java](http://www.blackberry.com/go/eclipseUpdate/3.5/java).</i>
