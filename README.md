@@ -2,7 +2,7 @@
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-blackberry -->
 
-This project contains a full example of a Midlet Java application that employs the <b>Lightstreamer BlackBerry client</b> library.
+This project contains a full example of a Midlet Java application that employs the <b>BlackBerry Client API for Lightstreamer</b>.
 
 ## Live Demo
 
@@ -12,7 +12,7 @@ This project contains a full example of a Midlet Java application that employs t
 ## Details
 
 This BlackBerry application contains two different screens: one with three stock quotes from the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript), the other with four items from the [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript).
-This app uses the <b>BlackBerry Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server.<br>
+This app uses the [BlackBerry Client API for Lightstreamer](http://www.lightstreamer.com/docs/client_blackberry_api/index.html) to handle the communications with Lightstreamer Server.<br>
 
 When the Basic Stock-List Demo is connected, you will see the yellow flashing cells of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript). Use the menu to switch to the other demo, where you can see the values of some items of the [Round-Trip Demo](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript) updated in real-time. To publish new values, use the menu.<br>
 
@@ -37,7 +37,7 @@ Check out the sources for further explanations.
 
 ## Build
 
-To build your own version of the demo, instead of using the one provided in the deploy.zip file from the Install section above[Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry#live-demo) section above consider that this example is comprised of the following folders:
+To build your own version of the demo, instead of using the one provided in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry#live-demo) section above, consider that this example is comprised of the following folders:
 * `/src`<br>
   Contains the sources to build the java application.
 
@@ -58,7 +58,7 @@ Once ready launch the IDE double-clicking the `ide.bat` file; the JDE should sta
 
 ### Compile and Run
 From inside the JDE Create a new Midlet project by clicking File->New. Then select the Projects tab and choose Midlet. If necessary you may have to create a workspace first. Once the project is ready right-click it and select add files to project. 
-Add all the example files to the project excluding the lib jar and the  BlackBerry_App_Descriptor.xml (it seems that JDE ignores it). Right-click the project again and select properties. In the Application tab select MIDlet as application type and set LightstreamerDemoMidlet as main class.
+Add all the example files to the project excluding the lib jar and the `BlackBerry_App_Descriptor.xml` (it seems that JDE ignores it). Right-click the project again and select properties. In the Application tab select MIDlet as application type and set LightstreamerDemoMidlet as main class.
   
 Now we have to add the client jar to compile and run the project: From your Lightstreamer installation extract the file included in the `Lightstreamer/DOCS-SDKs/sdk_client_blackberry/sdk_client_blackberry7/lib` and use that file.
 In the JDE create a new Library project and add the jar to it. Then right-click on it and select build project.
