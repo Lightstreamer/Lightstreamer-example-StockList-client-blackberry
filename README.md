@@ -11,12 +11,12 @@ This project contains a full example of a Midlet Java application that employs t
 
 ## Details
 
-This BlackBerry application contains two different screens: one with three stock quotes from the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript), the other with four items from the [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript).
+This BlackBerry application contains two different screens: one with three stock quotes from the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript), the other with four items from the [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript).
 This app uses the [BlackBerry Client API for Lightstreamer](http://www.lightstreamer.com/docs/client_blackberry_api/index.html) to handle the communications with Lightstreamer Server.<br>
 
-When the Basic Stock-List Demo is connected, you will see the yellow flashing cells of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript). Use the menu to switch to the other demo, where you can see the values of some items of the [Round-Trip Demo](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript) updated in real-time. To publish new values, use the menu.<br>
+When the Basic Stock-List Demo is connected, you will see the yellow flashing cells of the [Stock-List Demos](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript). Use the menu to switch to the other demo, where you can see the values of some items of the [Round-Trip Demo](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript) updated in real-time. To publish new values, use the menu.<br>
 
-You can open the [Round-Trip Demo](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript) on a PC browser and see the values synchronized with the mobile phone.
+You can open the [Round-Trip Demo](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript) on a PC browser and see the values synchronized with the mobile phone.
 
 ### Dig the Code
 The application is divided into 8 main public classes.
@@ -29,7 +29,7 @@ The application is divided into 8 main public classes.
 * <b>BBConnectionProvider</b> is a key class for the BlackBerry demo. It implements the ConnectionProvider to customize urls before those are used by the Lightstrteamer client library. Url customization is needed by BlackBerry devices to access the Internet through different transports (see [here](http://supportforums.blackberry.com/t5/Java-Development/Network-Transports/ta-p/482457)). The current implementation supports WiFi, public MDS, and direct TCP connections.
 <br>
 
-If you want to skip the build and deploy processes of this demo, please note that you can click the image or link in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry#live-demo) section above to download a `.jad` file to your phone. As an alternative, point your mobile browser to the URL: [http://demos.lightstreamer.com/bb/lsbbdemo.jad](http://demos.lightstreamer.com/bb/lsbbdemo.jad).<br>
+If you want to skip the build and deploy processes of this demo, please note that you can click the image or link in the [Live Demo](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-blackberry#live-demo) section above to download a `.jad` file to your phone. As an alternative, point your mobile browser to the URL: [http://demos.lightstreamer.com/bb/lsbbdemo.jad](http://demos.lightstreamer.com/bb/lsbbdemo.jad).<br>
 Once installed on your phone, run the application, give the requested rights, and wait for the connection to be established (as shown in the top green bar). If no connection can be established but your phone is connecting to the Internet properly for other applications, it probably means that the access point list configured in the demo is not compatible with your phone configuration. You might want to contact [support](support@lightstreamer.com) for further information.
 
 Check out the sources for further explanations.
@@ -37,7 +37,7 @@ Check out the sources for further explanations.
 
 ## Build
 
-To build your own version of the demo, instead of using the one provided in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry#live-demo) section above, consider that this example is comprised of the following folders:
+To build your own version of the demo, instead of using the one provided in the [Live Demo](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-blackberry#live-demo) section above, consider that this example is comprised of the following folders:
 * `/src`<br>
   Contains the sources to build the java application.
 
@@ -72,28 +72,28 @@ As a final note, do not specify the lib both as "import" and as "src" or you'll 
   
 By the current configuration, specified in `LightstreamerDemoMidlet.java` and used by the provided precompiled files, the demo tries to connect to the demo server currently running on Lightstreamer website.
 The demo can be reconfigured and recompiled to connect to the local installation of Lightstreamer Server. Only the host name and the port number have to be changed in the source code.
-The example requires that the [QUOTE_ADAPTER](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) and [ROUNDTRIP_ADAPTER](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java) have to be deployed in your local Lightstreamer server instance;
-the [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java) is also needed, but it is already provided by Lightstreamer server.<br>
+The example requires that the [QUOTE_ADAPTER](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) and [ROUNDTRIP_ADAPTER](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-adapter-java) have to be deployed in your local Lightstreamer server instance;
+the [LiteralBasedProvider](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java) is also needed, but it is already provided by Lightstreamer server.<br>
 
 ## See Also
 
 ### Lightstreamer Adapters Needed by This Demo Client
 <!-- START RELATED_ENTRIES -->
 
-* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
-* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
-* [Lightstreamer - Round-Trip Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
+* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Round-Trip Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
 
 ### Related Projects
 
-* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
-* [Lightstreamer - Basic Stock-List Demo - jQuery (iqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
-* [Lightstreamer - Stock-List Demo  - Dojo Toolkit Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dojo)
-* [Lightstreamer - Basic Stock-List Demo - Java SE (Swing) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-java)
-* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
-* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
+* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript)
+* [Lightstreamer - Basic Stock-List Demo - jQuery (iqGrid) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-jquery)
+* [Lightstreamer - Stock-List Demo  - Dojo Toolkit Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dojo)
+* [Lightstreamer - Basic Stock-List Demo - Java SE (Swing) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-java)
+* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dotnet)
+* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript)
 
 ## Lightstreamer Compatibility Notes
 
