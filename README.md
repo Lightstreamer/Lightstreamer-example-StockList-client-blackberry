@@ -98,4 +98,4 @@ the [LiteralBasedProvider](https://github.com/Lightstreamer/Lightstreamer-exampl
 ## Lightstreamer Compatibility Notes
 
 - Compatible with Lightstreamer BlackBerry Client API v. 1.1.1 or newer.
-- For Lightstreamer Allegro (+ BlackBerry Client API support), Presto, Vivace.
+- Ensure that BlackBerry Client API is supported by Lightstreamer Server license configuration.
