@@ -12,7 +12,7 @@ This project contains a full example of a Midlet Java application that employs t
 ## Details
 
 This BlackBerry application contains two different screens: one with three stock quotes from the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript), the other with four items from the [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript).
-This app uses the [BlackBerry Client API for Lightstreamer](http://www.lightstreamer.com/docs/client_blackberry_api/index.html) to handle the communications with Lightstreamer Server.<br>
+This app uses the [BlackBerry Client API for Lightstreamer](https://lightstreamer.com/api/ls-blackberry-client/latest/index.html) to handle the communications with Lightstreamer Server.<br>
 
 When the Basic Stock-List Demo is connected, you will see the yellow flashing cells of the [Stock-List Demos](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript). Use the menu to switch to the other demo, where you can see the values of some items of the [Round-Trip Demo](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript) updated in real-time. To publish new values, use the menu.<br>
 
