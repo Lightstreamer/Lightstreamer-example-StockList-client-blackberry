@@ -60,7 +60,7 @@ Once ready, launch the IDE, double-clicking the `ide.bat` file; the JDE should s
 From inside the JDE, create a new Midlet project by clicking File->New. Then, select the Projects tab and choose Midlet. If necessary, you may have to create a workspace first. Once the project is ready, right-click it and select add files to project. 
 Add all the example files to the project, excluding the lib jar and the `BlackBerry_App_Descriptor.xml` (it seems that JDE ignores it). Right-click the project again and select properties. In the Application tab, select MIDlet as application type and set LightstreamerDemoMidlet as main class.
   
-Now we have to add the client jar to compile and run the project: From your Lightstreamer installation extract the file included in the `Lightstreamer/DOCS-SDKs/sdk_client_blackberry/sdk_client_blackberry7/lib` and use that file.
+Now we have to add the client jar to compile and run the project: Download the latest `ls-bb-client.jar` file from the [Lightstreamer BlackBerry Client SDK resources](https://lightstreamer.com/res/ls-blackberry-client/latest/usage.html) and use that file.
 In the JDE, create a new Library project and add the jar to it. Then right-click on it and select build project.
 Finally, right-click on the original project (the one with the sources) and select Project Dependencies; select the other project and click ok. Build it and you should  now be able to run the demo.<br>
 <br>
